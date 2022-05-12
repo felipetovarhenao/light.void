@@ -1,0 +1,19 @@
+---------------------------------------------------------
+|  						light.void~						|
+|						[M4L device] 					|
+| 				4x4 digital photocontroller 			|
+|														|
+|			  			by Felipe Tovar-Henao @ 2019.	|
+|  	   	based on the same design by Leafcutter John.	|
+---------------------------------------------------------
+
+Setup
+	1) Select appropriate serial port.
+	2) Turn Serial communication ON.
+	3) Calibrate device.
+	4) Open serial port gate for performance.
+
+List of available send/receive names to be used in other M4L devices:
+
+	ldr0		[max ldr value]
+	ldr1, ldr2, ..., ldr16

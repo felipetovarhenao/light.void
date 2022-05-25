@@ -3,7 +3,11 @@
 *                         *
 * digital photocontroller *
 *                         *
-*************************** by Felipe Tovar-Henao © Nov/17/2019 
+*************************** 
+* 
+* Board type: Arduino MEGA 2560 Rev3
+* 
+* by Felipe Tovar-Henao © Nov/17/2019 
 */
 
 int outval[16] = {};

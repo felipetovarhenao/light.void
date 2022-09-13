@@ -13,18 +13,18 @@ This documentation includes:
 | Graphical User Interface (GUI) 	| `.amxd` (Max for Live device) | Main GUI for light.void~ interface, to be used in MaxMSP/Ableton Live.
 ---
 ### Description
-**_light.void~_** is a handmade digital photo-controller, consisting of sixteen light sensors, each of which sends data to the computer through an Arduino MEGA (2560 Rev3). The design itself can be considered an ‘inferred replica’ of the more popular **_light thing_** interface by British artist [Leafcutter John](http://leafcutterjohn.com/).  In other words, it's an approximate reproduction of the same design, based on assumptions about how it was built/programmed.
+**_light.void~_** is a handmade digital photo-controller, consisting of sixteen light sensors, each of which sends data to the computer through an [Arduino MEGA (2560 Rev3)](https://store.arduino.cc/products/arduino-mega-2560-rev3). The design itself can be considered an ‘inferred replica’ of the more popular **_light thing_** interface by British artist [Leafcutter John](http://leafcutterjohn.com/).  In other words, it's an approximate reproduction of the same design, based on assumptions about how it was built/programmed.
 
-_How it works:_
+#### _How it works:_
 
-Each sensor sends 10-bit data values to MaxMSP, where these are normalized to floating point numbers between 0 and 1, after being independently calibrated according to perceived levels of ambient light in order to avoid noisy data. The greater the intensity of the light perceived by each sensor, the greater the value is. This results in sixteen independent data streams available for user-defined mappings.
+Each sensor sends 10-bit data values to [MaxMSP](https://cycling74.com/downloads), where these are normalized to floating point numbers between 0 and 1, after being independently calibrated according to perceived levels of ambient light in order to avoid noisy data. The greater the intensity of the light perceived by each sensor, the greater the value is. This results in sixteen independent data streams available for user-defined mappings.
 
-**_light.void~_** is used in my work [«Umbra» (2019)](https://youtu.be/llalU1W5x4k)
+**_light.void~_** is used in my work **[«Umbra» (2019)](https://youtu.be/llalU1W5x4k)**. To learn more about _**light.void~**_ or **«Umbra»**, read [light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface](https://publicaciones.eafit.edu.co/index.php/ricercare/article/view/7340). [https://doi.org/10.17230/ricercare.2022.15.5](https://doi.org/10.17230/ricercare.2022.15.5)
 
 ---
 ### License
 ISC License
-Copyright © 2022, Felipe Tovar-Henao
+Copyright © 2022, [Felipe Tovar-Henao](https://www.felipe-tovar-henao.com/)
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
